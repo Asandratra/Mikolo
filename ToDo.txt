@@ -1,0 +1,205 @@
+BDD
+    Generation Bdd 31mn
+
+Login
+    Affichage 4mn
+    Metier 2mn
+
+Page Principale
+    Affichage 10mn
+
+Profile Magasin
+    Gestion marque
+        Liste
+            Affichage 12mn
+            Metier 40mn
+            Implementation 40mn
+        Ajout
+            Affichage 8mn
+            Metier 4mn
+            Implementation 15mn
+    Gestion processeur
+        Liste
+            Affichage 6mn
+            Metier 3mn
+            Implementation 1mn
+        Ajout
+            Affichage 5mn
+            Metier 1mn
+            Implementation 9mn
+    Gestion ram
+        Liste
+            Affichage 3mn
+            Metier 3mn
+            Implementation 3mn
+        Ajout
+            Affichage 2mn
+            Metier 1mn
+            Implementation 6mn
+    Gestion storage
+        Liste
+            Affichage 4mn
+            Metier 2mn
+            Implementation 4mn
+        Ajout
+            Affichage 2mn
+            Metier 1mn
+            Implementation 1mn
+    Gestion shop
+        Liste
+            Affichage 2mn
+            Metier 3mn
+            Implementation 3mn
+        Ajout
+            Affichage 2mn
+            Metier 1mn
+            Implementation 10mn
+
+    Gestion laptop
+        Liste
+            Affichage 27mn
+            Metier 8mn
+            Implementation 4mn
+        Ajout
+            Affichage 15mn
+            Metier 1mn
+            Implementation 8mn
+
+    Gestion Profile
+        Liste
+            Affichage 5mn
+            Metier 3mn 
+            Implementation 2mn
+        Ajout
+            Affichage 6mn
+            Metier 2mn
+            Implementation 2mn
+        Update
+            Affichage 20mn
+            Metier 8mn
+            Implementation 27mn
+
+    Gestion ajout de stock
+        Ajout
+            Affichage 22mn
+            Metier 3mn
+            Implementation 8mn
+
+    Gestion transaction
+        Ajout
+            Affichage 22mn
+            Metier 3mn
+            Implementation 10mn
+        
+    Plus
+        calcul valeur de laptop 40mn
+            Bdd +1mn
+            Historique stock 40mn
+
+Profile Point de Vente
+    Vente de produit
+        Ajout Vente 
+            Affichage 5mn
+            Metier 0mn
+            Implementation 0mn
+    Module reception
+        Liste transaction
+            Affichage 8mn
+            Metier 11mn
+            Implementation 2mn
+        Enregistrement reception
+            Affichage 7mn
+            Metier 6mn 
+            Implementation 3mn
+    Plus
+        Suivi des transactions
+            creation view transaction reception 15mn
+            creation model view 15mn
+            modif metier 12mn
+            modif Affichage 5mn
+            Implementation 7mn
+
+    SPECIFICATION DES PAGES 8mn
+
+    DEBUG 44mn
+
+Jour 2
+
+Calcule des pertes de stock
+    Metier 20
+    Affichage 10
+
+Ajout attribut laptop
+    BdD 3
+    Metier 5
+    Affichage 5
+    MAJ fonction generaliser 45
+    MAJ Recherche multicritere 30
+
+Vente
+    Liste des ventes
+        Affichage 40
+        Filtrage 50
+        Liste des ventes Global 30
+        Liste des ventes par point de vente 10
+
+Modification calcul de pertes
+    BdD ajout de status de transaction 1
+    MAJ Metier 3
+    MAJ Affichage 10
+
+Generation PDF
+    Recherche template de fonction pour exportation de pdf 120
+    MAJ Dependence 2
+    test debugging 180
+    Adaptation fonction 45
+    modification sortie pdf 10
+    Liste achats ventes perte par mois par annee 30
+    formulaire d'exportation en pfd 20
+    specification Global ou point de vente 10
+
+Global
+    Insertion donnees par web Application 20
+    Ajout contrainte formulaire 10
+
+Gestion shop   
+    filtre par nom
+        Affichage 3 2
+        Metier 5 4
+        test 2 4
+
+Gestion shop
+    Ajout filtre mois annee
+        Affichage 1 1
+        Metier 2 3
+        test 2 8
+        debugging 4 4
+
+JOUR 3
+    Liste BENEFICE
+        Affichage
+        Metier
+    COMMISSION = salaire
+    Gestion COMMISSION
+        creation table COMMISSION;(min,max,percentage)
+        Liste COMMISSION
+            Affichage
+            Metier
+        Ajout
+        Modif
+        Suppr
+
+
+statistique toute les page attendent filtre mois et annee 10mn
+
+BENEFICE sans COMMISSION fait
+Benefice de l'annee
+
+Gestion COMMISSION
+        creation table COMMISSION;(min,max,percentage) fait
+        Liste COMMISSION
+            Affichage
+            Metier
+        Ajout
+        Modif
+        Suppr
